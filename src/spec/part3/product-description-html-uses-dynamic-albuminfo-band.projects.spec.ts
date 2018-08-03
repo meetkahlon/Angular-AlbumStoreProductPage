@@ -95,6 +95,7 @@ describe('ProductDescription', () => {
     let htmlString = ""
     try {
       htmlString = require('../../app/product-description/product-description.component.html');
+      console.log(htmlString);
     } catch (e) {
     }
     if (htmlString != "") {
